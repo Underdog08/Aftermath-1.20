@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aftermath",
+	"version": "${version}",
+	"name": "Aftermath",
+	"description": "Hope is lost...",
+	"authors": [
+		"Underdog"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/aftermath/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.underdog.aftermath.Aftermath"
+		],
+		"client": [
+			"com.underdog.aftermath.AftermathClient"
+		],
+		"fabric-datagen": [
+			"com.underdog.aftermath.AftermathDataGenerator"
+		]
+	},
+	"mixins": [
+		"aftermath.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
