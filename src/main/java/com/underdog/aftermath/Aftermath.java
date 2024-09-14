@@ -1,5 +1,6 @@
 package com.underdog.aftermath;
 
+//import com.underdog.aftermath.world.biome.ModBiomesModifier;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -10,5 +11,7 @@ public class Aftermath implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
-	public void onInitialize() {}
+	public void onInitialize() {
+		//ModBiomesModifier.modifyBiomes();
+	}
 }

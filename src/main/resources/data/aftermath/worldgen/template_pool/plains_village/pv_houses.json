@@ -1,0 +1,40 @@
+{
+  "name": "aftermath:plains_village",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 2,
+    "element": {
+      "location": "aftermath:plains_village/stables",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },
+    {
+      "weight": 3,
+      "element": {
+        "location": "aftermath:plains_village/crop_pile",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "aftermath:plains_village/beet_farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }]
+}
